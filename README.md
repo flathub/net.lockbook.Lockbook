@@ -1,3 +1,6 @@
+# Flatpak for [Lockbook](https://lockbook.net)
+- [github.com/lockbook/lockbook](https://github.com/lockbook/lockbook)
+
 ### How to test the package
 
 #### Prerequisites
