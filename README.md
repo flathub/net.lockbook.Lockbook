@@ -1,5 +1,6 @@
 # Flatpak for [Lockbook](https://lockbook.net)
 - [github.com/lockbook/lockbook](https://github.com/lockbook/lockbook)
+- [docs](https://lockbook.net/docs)
 
 ### How to test the package
 
