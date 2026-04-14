@@ -14,7 +14,8 @@
        "--socket=x11",
        "--device=dri",
        "--share=network",
-       "--share=ipc"
+       "--share=ipc",
+       "--persist=.lockbook"
     ],
     "modules": [
         {
@@ -36,8 +37,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/lockbook/lockbook/archive/refs/tags/26.4.9.tar.gz",
-                    "sha256": "21efce104c177a263d54ea576a34bb5f336980afef686cc54fbe72377270de96"
+                    "url": "https://github.com/lockbook/lockbook/archive/refs/tags/26.4.13.tar.gz",
+                    "sha256": "e3efd6350d6db792a8df22dedc977a15c2266e1d0002c4a18f48e3779174ff9b"
                 },
                 "cargo-sources.json"
             ]
