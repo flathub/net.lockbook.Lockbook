@@ -10907,6 +10907,19 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
+        "url": "https://static.crates.io/crates/wasm-streams/wasm-streams-0.4.1.crate",
+        "sha256": "4e072d4e72f700fb3443d8fe94a39315df013eef1104903cdb0a2abd322bbecd",
+        "dest": "cargo/vendor/wasm-streams-0.4.1"
+    },
+    {
+        "type": "inline",
+        "contents": "{\"package\": \"4e072d4e72f700fb3443d8fe94a39315df013eef1104903cdb0a2abd322bbecd\", \"files\": {}}",
+        "dest": "cargo/vendor/wasm-streams-0.4.1",
+        "dest-filename": ".cargo-checksum.json"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
         "url": "https://static.crates.io/crates/wayland-backend/wayland-backend-0.3.12.crate",
         "sha256": "fee64194ccd96bf648f42a65a7e589547096dfa702f7cadef84347b66ad164f9",
         "dest": "cargo/vendor/wayland-backend-0.3.12"
