@@ -37,8 +37,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/lockbook/lockbook/archive/refs/tags/26.9.17.tar.gz",
-                    "sha256": "3a7054fbf793bf696d74524894cb137828839bdd3c3c96506dbfe58f00fa4269"
+                    "url": "https://github.com/lockbook/lockbook/archive/refs/tags/26.10.5.tar.gz",
+                    "sha256": "99e00bbd69554ee3b53fa4e8369234ae3ab0bf2bae03e719e4abaeb6bebd4468"
                 },
                 "cargo-sources.json"
             ]
