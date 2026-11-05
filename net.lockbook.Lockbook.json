@@ -1,7 +1,7 @@
 {
     "app-id": "net.lockbook.Lockbook",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "26.08",
+    "runtime-version": "25.08",
     "sdk": "org.freedesktop.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -29,16 +29,16 @@
             "build-commands": [
                 "cargo build --release --offline -p lockbook-linux",
                 "install -Dm755 target/release/lockbook-linux /app/bin/lockbook-desktop",
-                "install -Dm644 docs/graphics/logo.svg /app/share/icons/hicolor/scalable/apps/net.lockbook.Lockbook.svg",
+                "install -Dm644 docs/graphics/store-tile.svg /app/share/icons/hicolor/scalable/apps/net.lockbook.Lockbook.svg",
                 "install -Dm644 utils/dev/flatpak-package/lockbook-desktop.desktop /app/share/applications/net.lockbook.Lockbook.desktop",
-                "install -Dm644 utils/dev/flatpak-package/net.lockbook.Lockbook.appdata.xml /app/share/appdata/net.lockbook.Lockbook.appdata.xml",
+                "install -Dm644 utils/dev/flatpak-package/net.lockbook.Lockbook.metainfo.xml /app/share/metainfo/net.lockbook.Lockbook.metainfo.xml",
                 "install -Dm0644 UNLICENSE -t /app/share/licenses/net.lockbook.Lockbook/"
             ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/lockbook/lockbook/archive/refs/tags/26.10.30.tar.gz",
-                    "sha256": "b7fc898724665c4245804d8dae511f4f12923b0697bedae8b0fad5867edaea66"
+                    "url": "https://github.com/lockbook/lockbook/archive/refs/tags/26.11.5.tar.gz",
+                    "sha256": "f17d345098a6d8f62a915c5bffdd63ac078e83f662cccf507bca2665df4bb1de"
                 },
                 "cargo-sources.json"
             ]
