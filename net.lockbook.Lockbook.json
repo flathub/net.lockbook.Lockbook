@@ -12,6 +12,7 @@
     "command": "lockbook-desktop",
     "finish-args": [
        "--socket=x11",
+       "--socket=wayland",
        "--device=dri",
        "--share=network",
        "--share=ipc",
